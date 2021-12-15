@@ -13,6 +13,8 @@
 		63F4F2F127699CD70050CEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F4F2EF27699CD70050CEB2 /* Main.storyboard */; };
 		63F4F2F327699CD80050CEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F4F2F227699CD80050CEB2 /* Assets.xcassets */; };
 		63F4F2F627699CD80050CEB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F4F2F427699CD80050CEB2 /* LaunchScreen.storyboard */; };
+		63F4F2FE27699DB20050CEB2 /* QKMRZScanner in Resources */ = {isa = PBXBuildFile; fileRef = 63F4F2FD27699DB20050CEB2 /* QKMRZScanner */; };
+		63F4F30127699E150050CEB2 /* QKMRZParser in Resources */ = {isa = PBXBuildFile; fileRef = 63F4F30027699E150050CEB2 /* QKMRZParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		63F4F2F227699CD80050CEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63F4F2F527699CD80050CEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63F4F2F727699CD80050CEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F4F2FD27699DB20050CEB2 /* QKMRZScanner */ = {isa = PBXFileReference; lastKnownFileType = folder; path = QKMRZScanner; sourceTree = "<group>"; };
+		63F4F30027699E150050CEB2 /* QKMRZParser */ = {isa = PBXFileReference; lastKnownFileType = folder; path = QKMRZParser; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		63F4F2E827699CD70050CEB2 /* MRZReader */ = {
 			isa = PBXGroup;
 			children = (
+				63F4F2FD27699DB20050CEB2 /* QKMRZScanner */,
+				63F4F30027699E150050CEB2 /* QKMRZParser */,
 				63F4F2E927699CD70050CEB2 /* AppDelegate.swift */,
 				63F4F2EB27699CD70050CEB2 /* SceneDelegate.swift */,
 				63F4F2ED27699CD70050CEB2 /* ViewController.swift */,
@@ -128,6 +134,8 @@
 				63F4F2F627699CD80050CEB2 /* LaunchScreen.storyboard in Resources */,
 				63F4F2F327699CD80050CEB2 /* Assets.xcassets in Resources */,
 				63F4F2F127699CD70050CEB2 /* Main.storyboard in Resources */,
+				63F4F30127699E150050CEB2 /* QKMRZParser in Resources */,
+				63F4F2FE27699DB20050CEB2 /* QKMRZScanner in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
