@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension CIImage {
     var averageLuminance: Double {

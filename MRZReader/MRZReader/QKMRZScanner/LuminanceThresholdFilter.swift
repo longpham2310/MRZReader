@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 // MARK: - LuminanceThresholdFilter
 class LuminanceThresholdFilter: CIFilter {

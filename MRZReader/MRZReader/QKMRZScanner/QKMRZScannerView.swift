@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 import SwiftyTesseract
-import QKMRZParser
+//import QKMRZParser
 import AudioToolbox
 import Vision
 
